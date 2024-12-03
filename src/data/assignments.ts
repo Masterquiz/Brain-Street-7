@@ -1,23 +1,35 @@
 export const assignments = [
   {
-    name: "Needfinding",
+    name: "Needfinding, analisi, sintesi",
     status: "green",
     folder: "C1",
     files: [
       {
-        name: "Needfinding",
+        name: "Needfinding, analisi, sintesi",
+        src: "/assignments/C5/01 Needfinding, analisi, sintesi.pdf",
+        type: "pdf",
+        description: "Documento di specifica",
+      },
+      {
+        name: "Elaborato finale",
         src: "/assignments/C1/needfinding.pdf",
         type: "pdf",
       },
     ],
   },
   {
-    name: "Refinement and focus",
+    name: "Raffinamento e Project focus",
     status: "green",
     folder: "C2",
     files: [
       {
-        name: "Refinement and focus",
+        name: "Raffinamento e Project focus",
+        src: "/assignments/C2/02 Raffinamento e Project focus.pdf",
+        type: "pdf",
+        description: "Documento di specifica",
+      },
+      {
+        name: "Elaborato finale",
         src: "/assignments/C2/refinement_and_focus.pdf",
         type: "pdf",
       },
@@ -39,12 +51,18 @@ export const assignments = [
     ],
   },
   {
-    name: "Low fidelity prototype",
+    name: "Task, storyboard e primi prototipi",
     status: "green",
     folder: "C3",
     files: [
       {
-        name: "Low fidelity prototype",
+        name: "Task, storyboard e primi prototipi",
+        src: "/assignments/C5/03 Task, storyboard e primi prototipi.pdf",
+        type: "pdf",
+        description: "Documento di specifica",
+      },
+      {
+        name: "Elaborato finale",
         src: "/assignments/C3/low_fidelity_prototype.pdf",
         type: "pdf",
       },
@@ -59,14 +77,20 @@ export const assignments = [
         src: "https://www.figma.com/design/eSbYENZII8fWtErohwQhv3/Prototipo-APP",
         type: "link",
         description: "Figma file",
-      }
+      },
     ],
   },
   {
-    name: "Prototype refinement",
+    name: "Raffinamento del prototipo",
     status: "green",
     folder: "C4",
     files: [
+      {
+        name: "Raffinamento del prototipo",
+        src: "/assignments/C5/04 Raffinamento del prototipo.pdf",
+        type: "pdf",
+        description: "Documento di specifica",
+      },
       {
         name: "Documento tecnico SafeWay",
         src: "/assignments/C4/documento_tecnico_safeway.pdf",
@@ -82,14 +106,21 @@ export const assignments = [
         src: "https://www.figma.com/design/bdImHufZNshB73AFnrkUla/Prototipo-medium-fidelity-SafeWay",
         type: "link",
         description: "Figma file",
-      }
+      },
     ],
   },
   {
-    name: "Heuristical evaluation",
+    name: "Valutazione euristica",
     status: "yellow",
     folder: "C5",
-    files: [],
+    files: [
+      {
+        name: "Valutazione euristica",
+        src: "/assignments/C5/05 Valutazione euristica.pdf",
+        type: "pdf",
+        description: "Documento di specifica",
+      },
+    ],
   },
   {
     name: "Final presentation",
