@@ -51,7 +51,7 @@ export default function Assignment() {
                             (file.type === "link" && <IconLink />)}
                         </div>
                         <div>
-                          <span className="text-xs text-slate-500">
+                          <span className="text-xs text-slate-400">
                             {file.description || file.type}
                           </span>
                           <p>{file.name}</p>
