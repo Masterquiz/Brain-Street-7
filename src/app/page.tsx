@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { Flex, Container, Box, Indicator } from "@mantine/core";
+import { Indicator } from "@mantine/core";
 
 import HomeSection from "@/components/HomeSection";
 import Honeycomb from "@/components/Honeycomb";
