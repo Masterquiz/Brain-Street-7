@@ -3,13 +3,9 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Head from "next/head";
 
-import { ColorSchemeScript } from "@mantine/core";
-import { createTheme, MantineProvider } from "@mantine/core";
+import { ColorSchemeScript, MantineProvider } from "@mantine/core";
 import "@mantine/core/styles.css";
-
-const theme = createTheme({
-  /** Put your mantine theme override here */
-});
+import ToggleColorScheme from "@/components/ToggleColorScheme";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -33,24 +29,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-full">
+    <html lang="en">
       <Head>
-        <ColorSchemeScript />
+        <ColorSchemeScript defaultColorScheme="auto" />
       </Head>
-
-      <head>
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_left_alt,arrow_right_alt,dark_mode,download,light_mode,link"
-        />
-      </head>
 
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased h-min flex flex-col pt-6 pb-12 px-[9vw] md:px-[20vw]`}
       >
-        <MantineProvider theme={theme}>
-          <header>
-            <h1 className="text-3xl font-bold mb-12">Brain Street 7</h1>
+        <MantineProvider defaultColorScheme="auto">
+          <header className="mb-12 flex items-center justify-between">
+            <h1 className="text-3xl font-bold">Brain Street 7</h1>
+            <ToggleColorScheme />
           </header>
 
           <main className="flex-1">{children}</main>

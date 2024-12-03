@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { Indicator } from "@mantine/core";
+import { Flex, Container, Box, Indicator } from "@mantine/core";
 
 import HomeSection from "@/components/HomeSection";
 import Honeycomb from "@/components/Honeycomb";
@@ -39,9 +39,14 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {assignments.map((assignment, idx) => (
             <div key={assignment.name} className="flex rounded-lg items-center">
-              <Indicator inline processing={assignment.status === "yellow"} color={assignment.status} size={12}>
-                <div className={`w-16 ml-2 aspect-square border-2 border-${assignment.status}-900 rounded-lg flex items-center justify-center`}>
-                  <p className="text-2xl font-bold">{idx + 1}</p>
+              <Indicator
+                inline
+                processing={assignment.status === "yellow"}
+                color={assignment.status}
+                size={12}
+              >
+                <div className="w-16 ml-2 border-2 border-neutral-500 aspect-square rounded-lg flex items-center justify-center">
+                  <h1 className="text-2xl font-bold">{idx + 1}</h1>
                 </div>
               </Indicator>
               <div className="p-3">

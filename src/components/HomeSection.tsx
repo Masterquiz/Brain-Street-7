@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+import { IconArrowRight } from "@tabler/icons-react";
+
 export default function HomeSection({
   children,
   title,
@@ -16,7 +18,7 @@ export default function HomeSection({
         <Link href={link} className="flex items-center">
           <div className="flex">
             <p>Leggi di più</p>
-            <span className="material-symbols-outlined">arrow_right_alt</span>
+            <IconArrowRight />
           </div>
         </Link>
       </div>

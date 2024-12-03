@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+import { IconArrowLeft, IconDownload, IconLink } from "@tabler/icons-react";
+
 import { assignments } from "@/data/assignments";
 
 export default function Assignment() {
@@ -8,7 +10,7 @@ export default function Assignment() {
       <div className="flex items-center justify-between">
         <Link href="/">
           <div className="flex gap-2 items-center">
-            <span className="material-symbols-outlined">arrow_left_alt</span>
+            <IconArrowLeft />
             <h1 className="text-2xl">Compiti</h1>
           </div>
         </Link>
@@ -21,7 +23,7 @@ export default function Assignment() {
         >
           <div className="flex gap-1">
             <p>Scarica tutto</p>
-            <span className="material-symbols-outlined">download</span>
+            <IconDownload />
           </div>
         </Link>
       </div>
@@ -31,7 +33,9 @@ export default function Assignment() {
         .map((assignment) => {
           return (
             <div key={assignment.folder} className="flex flex-col gap-2">
-              <h2 className="mt-4 text-xl md:mt-8 md:font-bold">{assignment.name}</h2>
+              <h2 className="mt-4 text-xl md:mt-8 md:font-bold">
+                {assignment.name}
+              </h2>
               <>
                 {assignment.files.map((file) => {
                   return (
@@ -42,14 +46,14 @@ export default function Assignment() {
                       rel="noopener noreferrer"
                     >
                       <div className="flex gap-2 align-center">
-                        <div className="flex">
-                          <span className="material-symbols-outlined m-auto">
-                            {(file.type === "pdf" && "download") ||
-                              (file.type === "link" && "link")}
-                          </span>
+                        <div className="flex items-center">
+                          {(file.type === "pdf" && <IconDownload />) ||
+                            (file.type === "link" && <IconLink />)}
                         </div>
                         <div>
-                          <span className="text-xs text-slate-500">{file.description || file.type}</span>
+                          <span className="text-xs text-slate-500">
+                            {file.description || file.type}
+                          </span>
                           <p>{file.name}</p>
                         </div>
                       </div>

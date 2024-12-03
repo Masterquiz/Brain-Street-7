@@ -1,17 +1,19 @@
 import Link from "next/link";
 
+import { IconArrowLeft } from "@tabler/icons-react";
+
 export default function Prototype() {
   return (
     <>
       <div className="flex mb-4">
         <Link href="/" className="flex gap-2 items-center">
-          <span className="material-symbols-outlined">arrow_left_alt</span>
+          <IconArrowLeft />
           <h1 className="text-2xl">Il progetto</h1>
         </Link>
       </div>
 
       <div>
-        <p className="mb-2">Progetto a tema “Urban Well-Being” [...] </p>
+        {/*<p className="mb-2">Progetto a tema “Urban Well-Being” [...] </p>*/}
 
         <h1 className="mt-6 text-2xl font-bold">Contesto</h1>
 

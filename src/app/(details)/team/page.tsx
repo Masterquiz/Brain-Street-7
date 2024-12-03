@@ -3,6 +3,8 @@ import Image from "next/image";
 
 import fs from "fs";
 
+import { IconArrowLeft } from "@tabler/icons-react";
+
 export default function Team() {
   const profiles = fs.readdirSync("public/profile");
 
@@ -10,18 +12,18 @@ export default function Team() {
     <>
       <div className="flex mb-4">
         <Link href="/" className="flex gap-2 items-center">
-          <span className="material-symbols-outlined">arrow_left_alt</span>
+          <IconArrowLeft />
           <h1 className="text-2xl">Il team</h1>
         </Link>
       </div>
 
-      <div className="mb-8 flex flex-col gap-2">
+      {/*<div className="mb-8 flex flex-col gap-2">
         <p>
           Studenti di Ingegneria Informatica del Politecnico di Milano [...].
         </p>
 
         <p>Corso di Human-Computer Interaction [...].</p>
-      </div>
+      </div>*/}
 
       <div className="grid grid-cols-2 gap-6 justify-items-center md:grid-cols-3">
         {profiles.map((profile) => {
@@ -30,7 +32,7 @@ export default function Team() {
             .replace(/\b\w/g, (c) => c.toUpperCase());
 
           return (
-            <div key={profile} className="">
+            <div key={profile}>
               <Image
                 src={`/profile/${profile}`}
                 alt="Profile picture"
