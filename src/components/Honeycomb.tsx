@@ -19,7 +19,7 @@ export default function Honeycomb() {
         src={profile}
         alt="Profile picture"
         fill
-        className={`${styles.hex} hexagon-clip md:grayscale md:hover:grayscale-0 aspect-w-1 aspect-h-1`}
+        className={`${styles.hex} hexagon-clip aspect-w-1 aspect-h-1`}
       />
     </div>
   ));
