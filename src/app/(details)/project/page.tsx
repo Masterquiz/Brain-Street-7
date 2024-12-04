@@ -25,7 +25,7 @@ export default function Prototype() {
           <strong>limita la propria libertà</strong>.
         </p>
 
-        <h2 className="mt-3 text-xl">L’obiettivo</h2>
+        <h2 className="mt-3 text-xl">L&apos;obiettivo</h2>
         <p className="mb-2">
           Fornire agli utenti{" "}
           <strong>
@@ -49,7 +49,7 @@ export default function Prototype() {
           possibile.
         </p>
 
-        <h1 className="mt-6 text-2xl font-bold">L'Applicativo</h1>
+        <h1 className="mt-6 text-2xl font-bold">L&apos;Applicativo</h1>
 
         <h2 className="mt-3 text-xl">La modalità di funzionamento</h2>
         <p className="mb-2">
