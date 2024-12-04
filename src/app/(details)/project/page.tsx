@@ -15,7 +15,7 @@ export default function Prototype() {
       <div>
         {/*<p className="mb-2">Progetto a tema “Urban Well-Being” [...] </p>*/}
 
-        <h1 className="mt-6 text-2xl font-bold">Contesto</h1>
+        <h1 className="mt-6 text-2xl font-bold">Il contesto</h1>
 
         <h2 className="mt-3 text-xl">La problematica </h2>
         <p className="mb-2">
@@ -35,13 +35,13 @@ export default function Prototype() {
           tranquillità.
         </p>
 
-        <h2 className="mt-3 text-xl">Utenti target </h2>
+        <h2 className="mt-3 text-xl">Gli utenti target </h2>
         <p className="mb-2">
           Chiunque voglia sentirsi più al sicuro nella città in cui vive, in
           particolare donne e fasce vulnerabili della popolazione.
         </p>
 
-        <h2 className="mt-3 text-xl">Contesto di utilizzo </h2>
+        <h2 className="mt-3 text-xl">Il contesto di utilizzo </h2>
         <p className="mb-2">
           <strong>Due scenari distinti</strong>: quando l’utente percepisce
           pericolo e/o è testimone di un evento pericoloso quando l’utente vuole
@@ -49,9 +49,9 @@ export default function Prototype() {
           possibile.
         </p>
 
-        <h1 className="mt-6 text-2xl font-bold">Applicativo</h1>
+        <h1 className="mt-6 text-2xl font-bold">L'Applicativo</h1>
 
-        <h2 className="mt-3 text-xl">Modalità di funzionamento</h2>
+        <h2 className="mt-3 text-xl">La modalità di funzionamento</h2>
         <p className="mb-2">
           SafeWay si basa su due funzionalità principali: permettere all’utente
           di <strong>segnalare una situazione di pericolo</strong> e fornire
@@ -60,7 +60,7 @@ export default function Prototype() {
           effettuate da altri utenti.
         </p>
 
-        <h2 className="mt-3 text-xl">Segnalazioni</h2>
+        <h2 className="mt-3 text-xl">Le segnalazioni</h2>
         <p className="mb-2">
           Gli utenti hanno a disposizione la possibilità di effettuare una{" "}
           <strong>rapida ma accurata segnalazione</strong> tramite l’apposita
@@ -85,7 +85,7 @@ export default function Prototype() {
           e la distribuzione temporale degli alert in grado di smistare la
           segnalazione, ove necessario, anche alle forze dell’ordine.
         </p>
-        <h2 className="mt-3 text-xl">Scelta dei percorsi</h2>
+        <h2 className="mt-3 text-xl">La scelta dei percorsi</h2>
         <p className="mb-2">
           L’altra modalità di funzionamento dell’applicativo fornisce uno
           strumento simile ai principali applicativi di navigazione già presenti
@@ -146,7 +146,7 @@ export default function Prototype() {
           percorso che si sta seguendo e rispetto alla posizione degli amici.
         </p>
 
-        <h1 className="mt-6 text-2xl font-bold">Prototipo</h1>
+        <h1 className="mt-6 text-2xl font-bold">Il prototipo</h1>
         <p className="mb-2">
           Il prototipo è naturalmente{" "}
           <strong>molto più limitato e schematico</strong> rispetto
