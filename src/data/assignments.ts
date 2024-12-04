@@ -120,6 +120,11 @@ export const assignments = [
         type: "pdf",
         description: "Documento di specifica",
       },
+      {
+        name: "Definizione dei task",
+        src: "/assignments/C5/definizione_dei_task.pdf",
+        type: "pdf",
+      },
     ],
   },
   {
