@@ -6,7 +6,7 @@ export const assignments = [
     files: [
       {
         name: "Needfinding, analisi, sintesi",
-        src: "/assignments/C5/01 Needfinding, analisi, sintesi.pdf",
+        src: "/assignments/C1/01 Needfinding, analisi, sintesi.pdf",
         type: "pdf",
         description: "Documento di specifica",
       },
@@ -57,7 +57,7 @@ export const assignments = [
     files: [
       {
         name: "Task, storyboard e primi prototipi",
-        src: "/assignments/C5/03 Task, storyboard e primi prototipi.pdf",
+        src: "/assignments/C3/03 Task, storyboard e primi prototipi.pdf",
         type: "pdf",
         description: "Documento di specifica",
       },
@@ -87,7 +87,7 @@ export const assignments = [
     files: [
       {
         name: "Raffinamento del prototipo",
-        src: "/assignments/C5/04 Raffinamento del prototipo.pdf",
+        src: "/assignments/C4/04 Raffinamento del prototipo.pdf",
         type: "pdf",
         description: "Documento di specifica",
       },
