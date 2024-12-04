@@ -27,11 +27,13 @@ export default function Honeycomb() {
   return (
     <>
       <div className="m-auto">
-        <div className="flex">{profilesList.slice(0, 4)}</div>
+        <div className="flex translate-y-[calc(265/240*20.5vw/8)] md:translate-y-[calc(265/240*0.95*15vw/8)]">
+          {profilesList.slice(0, 4)}
+        </div>
         <div
           className="flex
-            translate-x-[calc(20.5vw/2)] translate-y-[calc(-265/240*20.5vw/4)]
-            md:translate-x-[calc(0.95*15vw/2)] md:translate-y-[calc(-265/240*0.95*15vw/4)]"
+            translate-x-[calc(20.5vw/2)] translate-y-[calc(-265/240*20.5vw/8)]
+            md:translate-x-[calc(0.95*15vw/2)] md:translate-y-[calc(-265/240*0.95*15vw/8)]"
         >
           {profilesList.slice(4, 7)}
         </div>
