@@ -33,7 +33,7 @@ export default function Assignment() {
         .map((assignment) => {
           return (
             <div key={assignment.folder} className="flex flex-col gap-2">
-              <h2 className="mt-4 text-xl md:mt-8 md:font-bold">
+              <h2 className="mt-4 text-xl font-bold md:mt-8">
                 {assignment.name}
               </h2>
               <>
@@ -45,17 +45,10 @@ export default function Assignment() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <div className="flex gap-2 align-center">
-                        <div className="flex items-center">
-                          {(file.type === "pdf" && <IconDownload />) ||
-                            (file.type === "link" && <IconLink />)}
-                        </div>
-                        <div>
-                          <span className="text-xs text-slate-400">
-                            {file.description || file.type}
-                          </span>
-                          <p>{file.name}</p>
-                        </div>
+                      <div className="flex gap-2 align-center my-3">
+                        {(file.type === "pdf" && <IconDownload />) ||
+                          (file.type === "link" && <IconLink />)}
+                        <p>{file.name}</p>
                       </div>
                     </Link>
                   );

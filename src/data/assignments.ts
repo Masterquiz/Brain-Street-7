@@ -1,14 +1,13 @@
 export const assignments = [
   {
-    name: "Needfinding, analisi, sintesi",
+    name: "Individuazione dei bisogni",
     status: "green",
     folder: "C1",
     files: [
       {
-        name: "Needfinding, analisi, sintesi",
+        name: "Documento di specifica",
         src: "/assignments/C1/01 Needfinding, analisi, sintesi.pdf",
         type: "pdf",
-        description: "Documento di specifica",
       },
       {
         name: "Elaborato finale",
@@ -18,15 +17,14 @@ export const assignments = [
     ],
   },
   {
-    name: "Raffinamento e Project focus",
+    name: "Raffinamento e focus",
     status: "green",
     folder: "C2",
     files: [
       {
-        name: "Raffinamento e Project focus",
+        name: "Documento di specifica",
         src: "/assignments/C2/02 Raffinamento e Project focus.pdf",
         type: "pdf",
-        description: "Documento di specifica",
       },
       {
         name: "Elaborato finale",
@@ -56,10 +54,9 @@ export const assignments = [
     folder: "C3",
     files: [
       {
-        name: "Task, storyboard e primi prototipi",
+        name: "Documento di specifica",
         src: "/assignments/C3/03 Task, storyboard e primi prototipi.pdf",
         type: "pdf",
-        description: "Documento di specifica",
       },
       {
         name: "Elaborato finale",
@@ -86,10 +83,9 @@ export const assignments = [
     folder: "C4",
     files: [
       {
-        name: "Raffinamento del prototipo",
+        name: "Documento di specifica",
         src: "/assignments/C4/04 Raffinamento del prototipo.pdf",
         type: "pdf",
-        description: "Documento di specifica",
       },
       {
         name: "Documento tecnico SafeWay",
@@ -115,10 +111,9 @@ export const assignments = [
     folder: "C5",
     files: [
       {
-        name: "Valutazione euristica",
+        name: "Documento di specifica",
         src: "/assignments/C5/05 Valutazione euristica.pdf",
         type: "pdf",
-        description: "Documento di specifica",
       },
       {
         name: "Definizione dei task",
@@ -128,7 +123,7 @@ export const assignments = [
     ],
   },
   {
-    name: "Final presentation",
+    name: "Presentazione finale",
     status: "red",
     folder: "C6",
     files: [],
