@@ -51,7 +51,13 @@ export default function Home() {
               </Indicator>
               <div className="p-3">
                 <h2 className="text-xl">{assignment.name}</h2>
-                <p className="text-slate-400">{`Compito ${idx + 1}`}</p>
+                <p className="text-sm text-slate-400">
+                  {assignment.deadline?.toLocaleDateString("it-It", {
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                  }) ?? "Non ancora fissata"}
+                </p>
               </div>
             </div>
           ))}
