@@ -131,13 +131,14 @@ export const assignments = [
     name: "Presentazione finale",
     status: "red",
     folder: "C6",
+    deadline: new Date(2025, 1, 29),
     files: [],
   },
 ] as {
   name: string;
   status: "green" | "yellow" | "red";
   folder: string;
-  deadline?: Date;
+  deadline: Date;
   files: {
     name: string;
     src: string;

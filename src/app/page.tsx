@@ -28,9 +28,6 @@ export default function Home() {
             <p className="italic">
               Percorsi sicuri, libertà di muoversi, sempre!
             </p>
-            {/*<Button type="button" disabled>
-              Vai all'app
-            </Button>*/}
           </div>
         </div>
       </HomeSection>
@@ -52,11 +49,11 @@ export default function Home() {
               <div className="p-3">
                 <h2 className="text-xl">{assignment.name}</h2>
                 <p className="text-sm text-slate-400">
-                  {assignment.deadline?.toLocaleDateString("it-It", {
+                  {assignment.deadline.toLocaleDateString("it-It", {
                     year: "numeric",
                     month: "long",
                     day: "numeric",
-                  }) ?? "Non ancora fissata"}
+                  })}
                 </p>
               </div>
             </div>
