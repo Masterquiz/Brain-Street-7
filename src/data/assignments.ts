@@ -111,7 +111,7 @@ export const assignments = [
   },
   {
     name: "Valutazione euristica",
-    status: "yellow",
+    status: "green",
     folder: "C5",
     deadline: new Date(2024, 12, 23),
     files: [
@@ -125,11 +125,16 @@ export const assignments = [
         src: "/assignments/C5/definizione_dei_task.pdf",
         type: "pdf",
       },
+      {
+        name: "Valutazione euristica",
+        src: "/assignments/C5/valutazione_euristica_condivisa.pdf",
+        type: "pdf",
+      },
     ],
   },
   {
     name: "Presentazione finale",
-    status: "red",
+    status: "yellow",
     folder: "C6",
     deadline: new Date(2025, 1, 29),
     files: [],
