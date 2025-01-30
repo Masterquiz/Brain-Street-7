@@ -134,10 +134,37 @@ export const assignments = [
   },
   {
     name: "Presentazione finale",
-    status: "yellow",
+    status: "green",
     folder: "C6",
     deadline: new Date(2025, 1, 29),
-    files: [],
+    files: [
+      {
+        name: "User testing",
+        src: "/assignments/C6/06 User testing.pdf",
+        type: "pdf",
+      },
+      {
+        name: "Script - Usability testing",
+        src: "/assignments/C6/script_usability_testing.pdf",
+        type: "pdf",
+      },
+      {
+        name: "Problemi riscontrati dalla valutazione euristica",
+        src: "/assignments/C6/problemi_riscontrati_dalla_valutazione_euristica.pdf",
+        type: "pdf",
+      },
+      {
+        name: "Report - Modifica prototipo dopo la valutazione euristica",
+        src: "/assignments/C6/report_modifica_prototipo_dopo_la_valutazione_euristica.pdf",
+        type: "pdf",
+      },
+      {
+        name: "Final prototype",
+        src: "https://www.figma.com/design/JhFU1pc3n13uypjy6R7cDN/Prototipo-finale",
+        type: "link",
+        description: "Figma file",
+      },
+    ],
   },
 ] as {
   name: string;
@@ -151,4 +178,3 @@ export const assignments = [
     description?: string;
   }[];
 }[];
-
