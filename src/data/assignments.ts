@@ -3,7 +3,7 @@ export const assignments = [
     name: "Individuazione dei bisogni",
     status: "green",
     folder: "C1",
-    deadline: new Date(2024, 10, 14),
+    deadline: new Date(2024, 9, 14),
     files: [
       {
         name: "Documento di specifica",
@@ -21,7 +21,7 @@ export const assignments = [
     name: "Raffinamento e focus",
     status: "green",
     folder: "C2",
-    deadline: new Date(2024, 10, 28),
+    deadline: new Date(2024, 9, 28),
     files: [
       {
         name: "Documento di specifica",
@@ -54,7 +54,7 @@ export const assignments = [
     name: "Task, storyboard e primi prototipi",
     status: "green",
     folder: "C3",
-    deadline: new Date(2024, 11, 18),
+    deadline: new Date(2024, 10, 18),
     files: [
       {
         name: "Documento di specifica",
@@ -84,7 +84,7 @@ export const assignments = [
     name: "Raffinamento del prototipo",
     status: "green",
     folder: "C4",
-    deadline: new Date(2024, 12, 2),
+    deadline: new Date(2024, 11, 2),
     files: [
       {
         name: "Documento di specifica",
@@ -113,7 +113,7 @@ export const assignments = [
     name: "Valutazione euristica",
     status: "green",
     folder: "C5",
-    deadline: new Date(2024, 12, 23),
+    deadline: new Date(2024, 11, 23),
     files: [
       {
         name: "Documento di specifica",
@@ -136,7 +136,7 @@ export const assignments = [
     name: "Presentazione finale",
     status: "green",
     folder: "C6",
-    deadline: new Date(2025, 1, 29),
+    deadline: new Date(2025, 0, 29),
     files: [
       {
         name: "User testing",
