@@ -139,8 +139,13 @@ export const assignments = [
     deadline: new Date(2025, 0, 29),
     files: [
       {
-        name: "User testing",
+        name: "Documento di specifica",
         src: "/assignments/C6/06 User testing.pdf",
+        type: "pdf",
+      },
+      {
+        name: "User testing",
+        src: "/assignments/C6/user_testing.pdf",
         type: "pdf",
       },
       {
