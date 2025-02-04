@@ -133,7 +133,7 @@ export const assignments = [
     ],
   },
   {
-    name: "Presentazione finale",
+    name: "User testing",
     status: "green",
     folder: "C6",
     deadline: new Date(2025, 0, 29),
@@ -168,6 +168,24 @@ export const assignments = [
         src: "https://www.figma.com/design/JhFU1pc3n13uypjy6R7cDN/Prototipo-finale",
         type: "link",
         description: "Figma file",
+      },
+    ],
+  },
+  {
+    name: "Presentazione finale",
+    status: "green",
+    folder: "C7",
+    deadline: new Date(2025, 1, 5),
+    files: [
+      {
+        name: "Documento di specifica",
+        src: "/assignments/C7/07 Presentazione finale.pdf",
+        type: "pdf",
+      },
+      {
+        name: "Presentazione finale",
+        src: "/assignments/C7/presentazione_finale.pdf",
+        type: "pdf",
       },
     ],
   },
