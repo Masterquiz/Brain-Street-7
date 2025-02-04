@@ -68,13 +68,13 @@ export const assignments = [
       },
       {
         name: "Prototype #1",
-        src: "https://www.figma.com/design/xoBPQwh6xyylGf6rbPrl4a/Prototipo-low-fidelity-%231",
+        src: "https://www.figma.com/design/xoBPQwh6xyylGf6rbPrl4a/Prototipo-LowFidelity-WebApp?m=auto&t=iHQh8khZ6hSETdh6-1",
         type: "link",
         description: "Figma file",
       },
       {
         name: "Prototype #2",
-        src: "https://www.figma.com/design/eSbYENZII8fWtErohwQhv3/Prototipo-APP",
+        src: "https://www.figma.com/design/eSbYENZII8fWtErohwQhv3/Prototipo-LowFidelity-Mobile-App-%2B-SmartWatch?m=auto&t=iHQh8khZ6hSETdh6-1",
         type: "link",
         description: "Figma file",
       },
@@ -103,7 +103,7 @@ export const assignments = [
       },
       {
         name: "Refined prototype",
-        src: "https://www.figma.com/design/bdImHufZNshB73AFnrkUla/Prototipo-medium-fidelity-SafeWay",
+        src: "https://www.figma.com/design/bdImHufZNshB73AFnrkUla/Prototipo-medium-fidelity-SafeWay?m=auto&t=iHQh8khZ6hSETdh6-1",
         type: "link",
         description: "Figma file",
       },
@@ -165,7 +165,7 @@ export const assignments = [
       },
       {
         name: "Final prototype",
-        src: "https://www.figma.com/design/JhFU1pc3n13uypjy6R7cDN/Prototipo-finale",
+        src: "https://www.figma.com/design/JhFU1pc3n13uypjy6R7cDN/Prototipo-finale?m=auto&t=iHQh8khZ6hSETdh6-6",
         type: "link",
         description: "Figma file",
       },
